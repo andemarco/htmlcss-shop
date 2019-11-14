@@ -4,6 +4,9 @@
   padding: 0px;
 }
 
+body {
+  padding: 15px;
+}
 .box {
   display: inline-block;
   position: relative;
@@ -25,8 +28,10 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   display: none;
+  color: red;
+  font-size: 25px;
 }
 
 .box:hover .heart {
