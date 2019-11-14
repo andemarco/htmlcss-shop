@@ -19,3 +19,16 @@
 .discount.red {
   background-color: red;
 }
+
+.heart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  display: none;
+}
+
+.box:hover .heart {
+  display: block;
+}
