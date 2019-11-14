@@ -2,12 +2,42 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0px;
+  text-align: center;
 }
 
 body {
   padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
+.website {
+  margin: 0 auto;
+  width: 760px;
+}
+
+/* ZONA LOGO  */
+.logo {
+  margin: 0;
+  width: 900px;
+  height: 400px;
+  background-image: url(https://cdn5.vectorstock.com/i/1000x1000/48/44/music-store-logo-vector-20734844.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+  position: relative;
+  border-bottom: 2px solid;
+}
+
+#namesite {
+  position: absolute;
+  top: 370px;
+  left:770px;
+  color: black;
+  text-decoration: none;
+}
+
+/* CONTENUTO DEI BOX */
 .container {
 width: 900px;
 height: 376px;
@@ -40,11 +70,12 @@ height: 376px;
   position: absolute;
   top: 0px;
   right: 0px;
-  background-color: green;
+  background-color: black;
+  color: white;
 }
 
 .discount.red {
-  background-color: red;
+  background-color: gray;
 }
 
 .heart {
@@ -54,14 +85,27 @@ height: 376px;
   text-align: center;
   padding: 15px;
   display: none;
-  color: red;
+  color: white;
   font-size: 20px;
+  background-color: black;
 }
 
 .box:hover .heart {
   display: block;
+  cursor: pointer;
 }
 
 li {
   list-style: none;
+}
+
+ul {
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  width: 900px;
 }
