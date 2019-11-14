@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+.box {
+  display: inline-block;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: green;
+}
+
+.discount.red {
+  background-color: red;
+}
