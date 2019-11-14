@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  padding: 15px;
+}
+
+.box {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 376px;
+  border-style: solid;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box.tablet{
+  background-image:url(https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/108060676/original/b5a3c835f041151e16a398cf336fde89f05a7f07/record-realistic-bass-lines.jpg);
+}
+
+.box.iphone {
+  background-image:url(https://images-na.ssl-images-amazon.com/images/I/51INShoKdNL._SL1000_.jpg);
+}
+
+.box.beats {
+  background-image:url(https://cdn11.bigcommerce.com/s-9ofd9xid8a/images/stencil/1280x1280/products/86/10697/765_0__05551.1540443918.jpg?c=2&imbypass=on);
+}
+
+.discount {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: green;
+}
+
+.discount.red {
+  background-color: red;
+}
+
+.heart {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  display: none;
+  color: red;
+  font-size: 20px;
+}
+
+.box:hover .heart {
+  display: block;
+}
