@@ -8,11 +8,16 @@ body {
   padding: 15px;
 }
 
+.container {
+width: 900px;
+height: 376px;
+}
+
 .box {
   display: inline-block;
   position: relative;
-  width: 300px;
-  height: 376px;
+  width: 33%;
+  height: 98%;
   border-style: solid;
   background-size: contain;
   background-repeat: no-repeat;
@@ -55,4 +60,8 @@ body {
 
 .box:hover .heart {
   display: block;
+}
+
+li {
+  list-style: none;
 }
